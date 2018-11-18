@@ -87,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/fpseek:system/vendor/bin/fpseek \
     vendor/asus/zenfone3/proprietary/vendor/bin/gx_fpd:system/vendor/bin/gx_fpd \
     vendor/asus/zenfone3/proprietary/vendor/bin/gx_fpd_gxfp3:system/vendor/bin/gx_fpd_gxfp3 \
+    vendor/asus/zenfone3/proprietary/vendor/bin/hal_proxy_daemon:system/vendor/bin/hal_proxy_daemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/asus/zenfone3/proprietary/vendor/bin/init.crda.sh:system/vendor/bin/init.crda.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
