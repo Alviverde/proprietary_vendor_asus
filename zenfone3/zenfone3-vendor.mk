@@ -87,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/fpseek:system/vendor/bin/fpseek \
     vendor/asus/zenfone3/proprietary/vendor/bin/gx_fpd:system/vendor/bin/gx_fpd \
     vendor/asus/zenfone3/proprietary/vendor/bin/gx_fpd_gxfp3:system/vendor/bin/gx_fpd_gxfp3 \
+    vendor/asus/zenfone3/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/asus/zenfone3/proprietary/vendor/bin/init.crda.sh:system/vendor/bin/init.crda.sh \
     vendor/asus/zenfone3/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
     vendor/asus/zenfone3/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
@@ -136,6 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:system/vendor/firmware/cpp_firmware_v1_5_2.fw \
     vendor/asus/zenfone3/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
     vendor/asus/zenfone3/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/asus/zenfone3/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/DataSet/arch/DIT_List.cfg:system/vendor/lib/DataSet/arch/DIT_List.cfg \
     vendor/asus/zenfone3/proprietary/vendor/lib/DataSet/ditSCidGen/msgchk.db:system/vendor/lib/DataSet/ditSCidGen/msgchk.db \
     vendor/asus/zenfone3/proprietary/vendor/lib/DataSet/ispDB/ParameterDB.db:system/vendor/lib/DataSet/ispDB/ParameterDB.db \
@@ -533,6 +535,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/asus/zenfone3/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/asus/zenfone3/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/asus/zenfone3/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
@@ -693,6 +696,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:system/vendor/lib/hw/activity_recognition.msm8953.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so:system/vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:system/vendor/lib/hw/gatekeeper.msm8953.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so \
@@ -708,6 +713,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/lib-uceservice.so:system/vendor/lib/lib-uceservice.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libbt-hidlclient.so:system/vendor/lib/libbt-hidlclient.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
@@ -852,7 +859,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:system/vendor/lib/vendor.qti.voiceprint@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
@@ -872,6 +879,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:system/vendor/lib64/hw/activity_recognition.msm8953.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:system/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so:system/vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
