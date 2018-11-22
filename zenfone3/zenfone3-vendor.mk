@@ -1086,7 +1086,8 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     vendor.qti.hardware.alarm-V1.0-java \
     PowerOffAlarm \
-    TimeService
+    TimeService \
+    chargeonlymode
 endif
 
 -include vendor/extra/devices.mk
