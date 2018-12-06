@@ -713,6 +713,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/lib-imscmservice.so:system/vendor/lib/lib-imscmservice.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/lib-imsrcs-v2.so:system/vendor/lib/lib-imsrcs-v2.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/lib-imsrcsbaseimpl.so:system/vendor/lib/lib-imsrcsbaseimpl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/lib-siputility.so:system/vendor/lib/lib-siputility.so \
@@ -862,6 +864,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.ims.callinfo@1.0.so:system/vendor/lib/vendor.qti.ims.callinfo@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:system/vendor/lib/vendor.qti.voiceprint@1.0.so \
@@ -899,6 +902,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/lib-imscmservice.so:system/vendor/lib64/lib-imscmservice.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/lib-imsrcs-v2.so:system/vendor/lib64/lib-imsrcs-v2.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/lib-imsrcsbaseimpl.so:system/vendor/lib64/lib-imsrcsbaseimpl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
@@ -1058,6 +1063,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:system/vendor/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so:system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
