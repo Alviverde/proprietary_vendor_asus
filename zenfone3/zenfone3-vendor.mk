@@ -546,6 +546,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/asus/zenfone3/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/asus/zenfone3/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
+    vendor/asus/zenfone3/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/asus/zenfone3/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/asus/zenfone3/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/asus/zenfone3/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
@@ -566,6 +567,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/asus/zenfone3/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/asus/zenfone3/proprietary/vendor/bin/power_off_alarm:system/vendor/bin/power_off_alarm \
+    vendor/asus/zenfone3/proprietary/vendor/bin/qfp-daemon:system/vendor/bin/qfp-daemon \
     vendor/asus/zenfone3/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/asus/zenfone3/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/asus/zenfone3/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
@@ -597,6 +599,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/asus/zenfone3/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/asus/zenfone3/proprietary/vendor/etc/icesoundpresets.def:system/vendor/etc/icesoundpresets.def \
+    vendor/asus/zenfone3/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/asus/zenfone3/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
@@ -852,6 +855,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.display.color@1.0.so:system/vendor/lib/vendor.display.color@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.display.color@1.1.so:system/vendor/lib/vendor.display.color@1.1.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.display.postproc@1.0.so:system/vendor/lib/vendor.display.postproc@1.0.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:system/vendor/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
@@ -888,8 +892,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:system/vendor/lib64/hw/activity_recognition.msm8953.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/hw/cdfinger.default.so:system/vendor/lib64/hw/cdfinger.default.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/hw/cdfinger.fingerprint.default.so:system/vendor/lib64/hw/cdfinger.fingerprint.default.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:system/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so:system/vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/hw/fingerprint.default.so:system/vendor/lib64/hw/fingerprint.default.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
@@ -961,6 +968,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/libgf_ca.so:system/vendor/lib64/libgf_ca.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/libgf_hal.so:system/vendor/lib64/libgf_hal.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:system/vendor/lib64/libgoodixfingerprintd_binder.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libhdr_tm.so:system/vendor/lib64/libhdr_tm.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
@@ -983,6 +993,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/libqfp-service.so:system/vendor/lib64/libqfp-service.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
@@ -1031,6 +1042,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:system/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:system/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
@@ -1050,6 +1063,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
